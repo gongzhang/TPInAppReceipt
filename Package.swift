@@ -29,9 +29,9 @@ let package = Package(
 			dependencies: ["TPInAppReceipt"],
 			path: "Sources/Objc"
 		),
-//		.testTarget(
-//			name: "TPInAppReceiptTests",
-//			dependencies: ["TPInAppReceipt"])
+		.testTarget(
+			name: "TPInAppReceiptTests",
+			dependencies: ["TPInAppReceipt"])
 	],
 	swiftLanguageVersions: [.v5]
 )
