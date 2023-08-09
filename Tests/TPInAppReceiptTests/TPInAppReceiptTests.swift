@@ -11,7 +11,7 @@ final class TPInAppReceiptTests: XCTestCase {
 
 	func testCrashReceipts()
 	{
-		var r = try? InAppReceipt(receiptData: noOriginalPurchaseDateCrashReceipt)
+        _ = try? InAppReceipt(receiptData: noOriginalPurchaseDateCrashReceipt)
 	}
 	
 	func testNewReceipt()
@@ -26,7 +26,7 @@ final class TPInAppReceiptTests: XCTestCase {
 	func testLegacyReceipt()
 	{
 		self.measure {
-			let r = try! InAppReceipt(receiptData: legacyReceipt)
+            _ = try! InAppReceipt(receiptData: legacyReceipt)
 		}
 		
 	}
