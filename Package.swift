@@ -1,12 +1,12 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.9
 
 import PackageDescription
 
 let package = Package(
     name: "TPInAppReceipt",
-	platforms: [.macOS(.v10_12),
-				.iOS(.v10),
-				.tvOS(.v10),
+	platforms: [.macOS(.v10_13),
+				.iOS(.v12),
+				.tvOS(.v12),
 				.watchOS("6.2")],
 	
     products: [
